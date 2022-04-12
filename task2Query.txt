@@ -1,0 +1,1 @@
+SELECT first_name, last_name, model, name FROM worker, car, child WHERE worker.id = car.user_id AND worker.id = child.user_id
